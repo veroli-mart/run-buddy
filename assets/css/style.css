@@ -134,11 +134,13 @@ section {
     margin: 10px 0;
 }
 .steps h3 {
-    font-size: 46px #024e76;
+    font-size: 46px;
+    color: #024e76;
     margin-top: 10px;
 }
 .steps p {
-    font-size: 23px #39a6b2;
+    font-size: 23px;
+    color: #39a6b2;
 }
 .steps span {
     font-size: 38px;
