@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {font-family: Helvetica, Arial, sans-serif;
+       color: #39a6b2;
+}
+
+header {padding: 20px 35px;
+        background-color :#39a6b2;
+}
+
+header h1 {
+        font-weight: bold;
+        font-size: 36px;
+        color: #fce138;
+        margin: 0;
+        display: inline;
+}
+
+header a {text-decoration: none;
+        color: #fce138;
+}
+
+header nav {
+        float: right;
+        margin: 7px 0;
+}
+
+header nav ul li {
+        display: inline;
+}
+
+header nav ul li a {
+        margin: 0 30px;
+        font-weight: lighter;
+        font-size: 22px;
+}
+
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: auto;
+    background-size: cover; 
+    background-position: bottom;
+    position: relative;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+}
+
+.secondary-content {
+    width: 80%;
+    margin: 0;
+    color: #024e76;
+}
+
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0 20px 0 
+}
+
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 20px 0;
+}
+
+.secondary-content ul {
+    margin: 15px 20px 15px 20px;
+}
+
+.secondary-content li{
+    color: #39a6b2;
+    margin: 10px 0 10px 0;
+}
+
+section {
+    padding: 60px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.section-title {
+    font-size: 55px #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+   
+    border-bottom:3px solid;
+}
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* Reach out style starts */
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    height: 400px; 
+    width: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a{
+    color: #fce138;
+}
+
+/*Reach out style end*/
+footer {
+    background: #fce138;
+    width: 10 0%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
