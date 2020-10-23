@@ -14,13 +14,13 @@ body {
     }
 header {
     padding: 20px 35px;
-    background-color :var(--tertiary-color);
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    position: -webkit-sticky;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: 80%;
@@ -283,8 +283,27 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.trainer img {
+.trainer-img {
     width: 100%;
+    min-height: 300px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+}
+
+.trainer-1 {
+    background-image: url("../images/trainer-1.jpg");
+    background-size: cover;
+}
+
+.trainer-2 {
+    background-image: url("../images/trainer-2.jpg");
+    background-size: cover;
+}
+
+.trainer-3 {
+    background-image: url("../images/trainer-3.jpg");
+    background-size: cover;
 }
 .trainer-bio {
     padding: 25px;
