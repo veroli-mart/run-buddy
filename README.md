@@ -15,3 +15,4 @@ https://lernantino.github.io/run-buddy/
 Made with ❤️ by Veronica Martinez
 
 ### ©️2019 Run Buddy, Inc
+
